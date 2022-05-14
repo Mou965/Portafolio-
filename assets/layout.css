@@ -1,0 +1,32 @@
+.col-5 {
+    width: 41.66%;
+    color: #fafafa;
+    text-align: center;
+    padding-bottom: 1rem;
+    
+    
+}
+
+.col-3 {
+    width: 25%;
+    color: #fafafa;
+    padding-bottom: 1rem;
+}
+
+.col-2 {
+    width: 16.66%;
+    color: #fafafa;
+    
+}
+
+.col-8 {
+    width: 66.66%;
+    border-bottom:solid #ADADAD;
+    color: #fafafa;
+    display: flex;
+    padding-left: 4rem;
+    
+    
+    
+
+}

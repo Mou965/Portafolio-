@@ -1,0 +1,528 @@
+:root {
+    font-family: 'Rubik', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h2, p{
+    color: #fafafa;
+    padding: 2rem;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+html {	
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin: 0;
+    background-color: #020403;
+    
+}
+
+
+/* Intro */
+.intro {
+    max-width: 100vw;   
+    position: fixed;
+    z-index: 9;
+    right: 0%;
+    background-color: #020403;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    border-bottom: 1px solid white;
+    padding: 10px ;
+
+}
+
+/* navigation bar */
+nav {
+    background-color: transparent;
+}
+
+nav a, .icon-menu {
+    color: #ADADAD;
+    padding: 5px 40px;
+    display: inline-block;
+}
+
+.text-right {
+    text-align: right;
+    
+}
+
+nav {
+    max-height: 100vw;
+    transition: max-height 1s;
+}
+
+.hidden {
+    max-height: 0;
+    overflow: hidden;
+}
+
+/* Titulos */
+
+.nombre{
+    color: #ADADAD;
+    font-size: 40px;
+}
+
+.carrera{
+    color: white;
+    font-size: 40px;
+}
+
+/* =======Icons section =======*/
+.icon-menu {
+    color: white;
+}
+
+.fa-linkedin-in, .fa-instagram, .fa-twitter {
+color: white;
+padding: 20px 25px;
+}
+
+/* ====== Midle page icons =====*/
+.fa-drafting-compass {
+    color: #fafafa;
+    
+}
+
+.fa-database {
+    color: #fafafa;
+}
+
+.fa-window-maximize, .fa-mobile {
+color: #fafafa;
+
+}
+
+
+
+/* Vectores SVG */
+.vectoruno svg {  
+    width:100%;
+    height:auto;
+    position: absolute;
+}
+
+
+.vectordos svg {
+    width:100%;
+    height:100%;
+    line-height: 0;
+}
+
+.circle2{
+    position: absolute;
+    left: -7%;
+    width: 30%;
+    top: 40%
+      
+}
+
+.circle1{
+    position: absolute;
+    left: 90%;
+    width: 30%;
+    top: 30%;
+      
+}
+.top-section {
+    margin-top: 4rem;
+}
+
+.habilidades {
+    padding-bottom: 5rem;
+}
+
+.tam{
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+     
+}
+
+
+
+.bb{
+   width: 1%;
+}
+
+
+
+
+.centro {
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.container img {
+    display: flex;
+    margin: auto;
+    padding: 5% 0 5% 0;
+    position: relative;
+    width: 20%;
+    border-radius: 40%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.aboutme {
+    color: #ffff;
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+
+.aboutme-text {
+    color:#ADADAD;
+    margin:0 0 50px 0;
+    font-size: 15px;
+    
+    
+}
+
+.icon-style {
+    
+    padding: 20px;
+    border-radius: 80%;
+    height: 80px;
+    width: 80px;
+    background-color: #3f3d3d;
+    text-align: center;
+    margin: 25px;
+
+}
+
+/* Email y contacto */
+
+.contacto {
+ color: #fafafa;
+ text-align: left;
+
+}
+
+
+/* Diechu section */
+.container-por{
+    color: #ffff;
+    text-align: center;
+}
+.container-por img{
+    width: 20%;
+    padding: 15px;
+   
+}
+
+.icon-contact{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+    border-radius: 50%;
+    text-align: center;
+    margin: 5px;
+    color: ADADAD;
+    border: solid #ADADAD;
+    padding: 20px;
+
+}
+.container-cont{
+    color: #ffff;
+    text-align: center;
+
+
+
+}
+.separador{
+    padding-left: 140px;
+}
+
+/* contact me section */
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.contacto-tit {
+    display: flex;
+    justify-content: flex-start;
+
+    width: 100%;
+}
+
+.contacto-tit h2 {
+    color: #FFFFFF;
+}
+
+.contacto-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.card img{
+    padding: 10px;
+    border-radius: 50%;
+    border: solid 1px #FFFFFF;
+    max-width: 100%;
+    width: 70px;
+    margin-bottom: 10px;
+}
+
+.card h3, p{
+    color: #ADADAD;
+    max-width: 100%;
+
+    margin-top: 5px;
+}
+/* Media queries */
+
+@media (min-width: 180px) and (max-width: 768px){
+
+    .icon-menu {
+        color: #ADADAD;
+        padding: 5px 40px;
+        display: inline-block;
+    }
+
+    nav a  {
+        background: #020403;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        z-index: 9;
+    }
+
+    .row {
+        display: flex;
+    }
+
+    .col-md-6 {
+        width: 50%;
+        text-align: center;
+        padding: 10px;   
+        
+    }
+
+    .container-por img{
+        width: 60%;
+        padding: 15px;
+    }
+
+    .container img {
+        display: flex;
+        margin: auto;
+        padding: 5% 0 5% 0;
+        position: relative;
+        width: 30%;
+        height: auto;
+        margin-top: 60px;
+    }
+    
+
+    
+ .abc {
+    width: 100%;
+  }
+    .circle {
+       
+        position: absolute;
+        left: 95%; 
+        width: 30;
+        
+        
+    }
+
+    nav {
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav a {
+        color: white;
+        font-size: 0.5;
+    }
+    nav li {
+        display: flex-start;
+    }
+
+    
+
+    h3{
+        font-size: 40px;
+    }
+    .bb{
+        width: 20%;
+        height: 10%;
+    }
+
+    .nombre {
+        font-size: 25px;
+
+    } 
+
+    .fa-linkedin-in, .fa-instagram, .fa-twitter {
+        color: white;
+        padding: 20px 25px;
+        font-size: 40px;
+    }
+
+    .corazon {
+        width: 4%;
+    }   
+
+    .carrera {
+        margin-top: -30px;    
+    }
+    
+    .vectordos svg {
+        font-size: 1px;
+        position: relative;
+        
+    }
+
+    .text-finish {
+        font-size: 30px;
+    }
+
+}
+
+
+
+
+@media(min-width: 768px) {
+    .row {
+        display: flex;
+    }
+     .col-md-6 {
+        width: 50%;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    #main-menu {
+        overflow: hidden;
+    }
+
+    nav li {
+        display: flex-start;
+        
+    }
+
+    nav {
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .icon-style {
+        
+        padding: 20px;
+        border-radius: 80%;
+        height: 80px;
+        width: 80px;
+        background-color: #3f3d3d;
+        text-align: center;
+        margin: 0px;
+    
+    }
+
+    .style-icon {
+       padding-right: 22%;
+    }
+
+    .style-icondos {
+        padding-left: 22%;
+
+    }
+
+    .corazon {
+        width: 2%;
+    }
+
+    
+
+    
+}
+
+
+
+/* Desktop */
+@media(min-width: 992px)  {
+    .lg-hidden {
+        display: none;
+    }
+    #main-menu {
+        max-height: none;
+    }
+    
+    nav {
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-end;
+    }
+    nav a {
+        color: white;
+    }
+    nav li {
+        display: inline-block;
+    }
+
+    .corazon {
+        width: 1%;
+    }
+
+    
+}
+
+
+
+
+footer{
+    color:#ADADAD;
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+

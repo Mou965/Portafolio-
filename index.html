@@ -1,21 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/50ead72691.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="./assets/layout.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div>
-        <span>
-            Home
-        </span>
-        <span>
-            Acerca de mi
-        </span>
+
+    <div class="intro" >
+
+        <div class="text-right lg-hidden">
+            <span onclick="toggleMenu()" class="icon-menu">
+                <i class="fas fa-bars"></i>
+            </span>
+        </div>
+
+        <nav class="menu hidden" id="main-menu">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#Acerca de mi">Acerca de mi</a>
+                </li>
+                <li>
+                    <a href="#Mis habilidades">Mis habilidades</a>
+                </li>
+                <li>
+                    <a href="#Experiencia">Experiencia</a>
+                </li>
+                <li>
+                    <a href="#Portafolio">Portafolio</a>
+                </li>
+                <li>
+                    <a href="#Contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
     </div>
-    
+    <!--Vector pcincipal y imagen de perfil -->
+    <div class="container">
+
+        <div class="vectoruno">
+            <svg viewBox="0 0 1442 526" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 106.724C337.152 -144.917 868.662 668.308 1438 502.495" stroke="#706E6E" stroke-width="2" />
+                <path d="M2 77.8278C338.386 -174.352 870.266 640.615 1440 474.447" stroke="#706E6E" stroke-width="2" />
+                <path d="M4 49.8278C340.152 -202.352 871.662 612.615 1441 446.447" stroke="#706E6E" stroke-width="2" />
+
+            </svg>
+
+            <img src="./assets/img/Moises.jpg" alt="Profile-image">
+        </div>
+    </div>
+
+    <!-- Titulos pricnipales -->
+    <div class="centro">
+        <div>
+            <h2 class="nombre">Hola, soy Moisés</h2>
+        </div>
+        <div>
+            <h3 class="carrera">Diseñador y <br> desarrollador web</h3>
+        </div>
+    </div>
+    <!--  Iconos principales -->
+    <div class="iconos centro">
+
+        <span>
+         <a href="https://www.linkedin.com/in/moises-ramirez-1a9713ba/">  <i class="fab fa-linkedin-in external-link fa-3x"></i></a>
+            
+
+        </span>
+
+        <span>
+            <a href="https://www.instagram.com/moises965/" > <i class="fab fa-instagram fa-3x"></i></a>
+
+        </span>
+
+        <span>
+            <a href="https://twitter.com/Ramirez_965"> <i class="fab fa-twitter fa-3x"></i></a>
+
+
+        </span>
+
+    </div>
+
+    </div>
+    <!-- vector secundario (mitad de pagina) -->
+    <div class="vectordos">
+
+        <svg viewBox="0 0 1442 526" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 106.724C337.152 -144.917 868.662 668.308 1438 502.495" stroke="#706E6E" stroke-width="2" />
+            <path d="M2 77.8278C338.386 -174.352 870.266 640.615 1440 474.447" stroke="#706E6E" stroke-width="2" />
+            <path d="M4 49.8278C340.152 -202.352 871.662 612.615 1441 446.447" stroke="#706E6E" stroke-width="2" />
+
+        </svg>
+
+         <div id = "Acerca de mi"> </div>
+    </div>
+
+    <!-- Acerca de mi -->
+    <div class="tam">
+    <section id="Acerca de mi"  class="top-section" >
+        <div >
+            <h2 class="aboutme centro">Acerca de mi</h2>
+            <p class="aboutme-text centro">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam maxime
+                laboriosam vel atque repudiandae. Magni, obcaecati optio commodi eligendi saepe nesciunt illo at
+                facere. Optio impedit aperiam inventore magni magnam.
+                Quisquam eveniet deleniti pariatur quae quod maiores ipsa dolorum laudantium eius. Inventore
+                voluptatem, ullam sint aut nostrum qui placeat, et exercitationem soluta recusandae modi tempora
+                quam aspernatur cupiditate facere vitae.
+                Omnis impedit nobis nesciunt, velit deserunt facere harum fuga laborum odit, esse sit aperiam, odio
+                quae dicta dolorem id iste. Ratione suscipit natus error aliquam veritatis sed molestiae, nostrum
+                omnis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quo, dolorem omnis
+                molestias culpa laboriosam. Commodi sapiente corrupti repellat. Consequatur qui, fugit minima
+                maiores ut quae. Autem reprehenderit ut tempore!
+            </p>
+
+            <span class="circle1">
+                <svg width="195" height="195" viewBox="0 0 195 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="97.5" cy="97.5" r="97.25" stroke="#F5F5F5" stroke-width="0.5"/>
+                    <circle cx="97.5" cy="94.9" r="81.65" stroke="#F5F5F5" stroke-width="0.5"/>
+                    <circle cx="97.5" cy="94.9" r="68.65" stroke="#F5F5F5" stroke-width="0.5"/>
+                </svg>
+            </span>
+                
+            
+        </div>
+        <div id="Mis habilidades"></div>
+    </section>
+       
+    <section id="Mis habilidades" class="top-section">
+            <div class="row">
+
+
+                <div class="col-md-6">
+                    <div>
+                        <h2>Mis habilidades</h2>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-6">
+
+           
+
+                </div>
+            </div>
+    </section >
+
+    <section class="habilidades" >
+            <div class="row">
+                <div class="col-md-6 col-lg-12">
+                    <div>
+                        <span class="style-icondos">
+                            <i class="fas fa-mobile fa-2x icon-style"></i>
+
+                        </span>
+
+                        <p class="style-icondos">Mobile App Desing</p>
+
+                    </div>
+
+
+
+                    <div>
+                        <span class="style-icondos">
+                            <i class="fas fa-drafting-compass fa-2x icon-style"></i>
+                        </span>
+                        <p class="style-icondos ">Motion Desing</p>
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div class="col-md-6 col-lg-12">
+
+
+
+                    <div>
+                        <!-- class="centro" -->
+                        <span  class="style-icon">
+                            <i class="far fa-window-maximize fa-2x icon-style"></i>
+                        </span>
+                        <p class="style-icon centro">Creación de sistemas de diseño</p>
+
+                    </div>
+
+                    <div>
+                        <span class="style-icon">
+                            <i class="fas fa-database fa-2x icon-style"></i>
+
+                        </span>
+                        <p class="style-icon">Desarrollo Web</p>
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+            <div id="Experiencia"></div>
+   </section>
+   </div>
+
+   <div class="tam">
+   <section id="Experiencia" class="top-section">
+             <h2 class="centro">Experiencia</h2>
+            <div class="main-experiencia row">
+
+                <div class="col-2">
+
+                </div>
+                <div class="col-8">
+
+
+                    <div class="col-3">
+                        2016-2018
+
+
+                    </div>
+
+                    <div class="col-5">
+                        <div>
+                            Visual Designer <br>
+                            wizeline
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="main-experiencia row">
+
+                <div class="col-2">
+
+                </div>
+                <div class="col-8">
+
+
+                    <div class="col-3">
+                        2018-2019
+
+
+                    </div>
+
+                    <div class="col-5">
+                        <div>
+                            Produc Designer <br>
+                            Microsoft
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="main-experiencia row">
+
+                <div class="col-2">
+
+                </div>
+                <div class="col-8">
+
+
+                    <div class="col-3">
+                        2019-2021
+
+
+                    </div>
+
+                    <div class="col-5">
+                        <div>
+                            UI Enginer <br>
+                            Google
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+            <span class="circle2">
+                <svg width="195" height="195" viewBox="0 0 195 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="97.5" cy="97.5" r="97.25" stroke="#F5F5F5" stroke-width="0.5"/>
+                    <circle cx="97.5" cy="94.9" r="81.65" stroke="#F5F5F5" stroke-width="0.5"/>
+                    <circle cx="97.5" cy="94.9" r="68.65" stroke="#F5F5F5" stroke-width="0.5"/>
+                </svg>
+            </span>
+
+            <div id="Portafolio"></div>
+
+   </section>
+
+    <section id="Portafolio" class="top-section" >
+
+            <div class="container-por">
+                <h2>Portafolio</h2>
+                <img src="./assets/img/imageuno.jpg" alt="Portafolio 1">
+                <img src="./assets/img/imagedos.jpg" alt="Portafolio 2">
+                <img src="./assets/img/imagetres.jpg" alt="Portafolio 3">
+
+
+            </div>
+        
+
+    </section>
+
+</div>
+    <section id="Contacto">
+
+            <div class="contacto">
+
+                
+                    <h2 class="centro">Contacto</h2>
+              
+
+                <div class="contacto-card">
+                    <div class="card">
+                        <span>
+                            <svg class=icon-contact width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M36.6669 28.2V33.2C36.6688 33.6642 36.5737 34.1236 36.3877 34.5489C36.2018 34.9742 35.929 35.356 35.587 35.6698C35.245 35.9836 34.8412 36.2225 34.4015 36.3712C33.9618 36.5199 33.4958 36.5751 33.0335 36.5333C27.9049 35.9761 22.9785 34.2236 18.6502 31.4167C14.6233 28.8578 11.2091 25.4436 8.65021 21.4167C5.83351 17.0687 4.08062 12.1183 3.53355 6.96666C3.4919 6.50577 3.54667 6.04126 3.69438 5.6027C3.84209 5.16414 4.0795 4.76114 4.39149 4.41936C4.70348 4.07758 5.08322 3.8045 5.50653 3.61753C5.92984 3.43055 6.38745 3.33376 6.85021 3.33332H11.8502C12.6591 3.32536 13.4432 3.61179 14.0565 4.13921C14.6698 4.66663 15.0703 5.39907 15.1835 6.19999C15.3946 7.8001 15.786 9.3712 16.3502 10.8833C16.5745 11.4799 16.623 12.1282 16.4901 12.7515C16.3571 13.3747 16.0483 13.9468 15.6002 14.4L13.4835 16.5167C15.8561 20.6892 19.311 24.1441 23.4835 26.5167L25.6002 24.4C26.0534 23.9519 26.6255 23.6431 27.2487 23.5101C27.872 23.3772 28.5203 23.4257 29.1169 23.65C30.629 24.2142 32.2001 24.6056 33.8002 24.8167C34.6098 24.9309 35.3492 25.3387 35.8778 25.9625C36.4063 26.5863 36.6872 27.3826 36.6669 28.2Z"
+                                    stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+
+                            <!-- <img src="./assets/img/phone3.svg" alt="phone"> -->
+                            <h3 class="text-finish">Numero celular</h3>
+                            <p>+57 30146264673</p>
+                    </div>
+                    <div class="card">
+                        <!-- <img src="./assets/img/mail.svg" alt="email"> -->
+                        <svg class=icon-contact width="40" height="40" viewBox="0 0 40 40" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.66683 6.66666H33.3335C35.1668 6.66666 36.6668 8.16666 36.6668 9.99999V30C36.6668 31.8333 35.1668 33.3333 33.3335 33.3333H6.66683C4.8335 33.3333 3.3335 31.8333 3.3335 30V9.99999C3.3335 8.16666 4.8335 6.66666 6.66683 6.66666Z"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M36.6668 9.99998L20.0002 21.6667L3.3335 9.99998" stroke="white" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <h3 class="text-finish">Email</h3>
+                        <p>Ramiirez.9605@gmai.com</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+<footer>Hecho con <img class="corazon" src="./assets/icons/favicon.ico" alt="Cora sidoso"> en Academlo</footer>
+
+    <script src= "./assets/js.js"></script>
+
 </body>
+
 </html>
